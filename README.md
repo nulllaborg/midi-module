@@ -7,7 +7,8 @@ MIDI Digital Music Module is a professional music synthesis module based on the 
 The module supports 16 independent MIDI channels, with Channel 9 dedicated to professional percussion sounds, enabling complex multi-channel music arrangement. In terms of audio processing, the module supports up to 64-voice polyphony simultaneously (without effects) or 38-voice polyphony with effects, featuring 32-note polyphonic processing capability to ensure smooth multi-part performance.
 The module integrates a professional-grade audio effects system, featuring a built-in 4-band parametric equalizer, multiple reverb and chorus effects, and a stereo audio amplifier that allows direct playback through headphones or speakers. By inputting standard MIDI signals via the serial interface, it outputs high-fidelity stereo audio.
 This module is compatible with mainstream controllers such as Arduino, micro:bit, and ESP32, making it suitable for applications including electronic instrument design, educational programming kits, and various embedded audio systems. It provides a complete audio solution for embedded music applications.
-**Note:** When using headphones for playback, some types of headphones are not compatible with this module and may cause playback issues. It is recommended to use 4-pole (TRRS) headphones.
+**Note:** When using headphones for playback, some types of headphones are not compatible with this module and may cause playback issues. It is recommended to use 4-pole (TRRS) headphones. 
+For optimal audio performance, the recommended load speaker specification is 4Ω impedance with a 3W rated power. Under this condition, the amplifier can achieve its nominal maximum output power while ensuring good frequency response and low distortion characteristics.
 
 ## Module Parameters
 | Parameter               | Specification                                                            |
@@ -42,7 +43,6 @@ All channels support real-time timbre switching and parameter control
 ### Audio Synthesis Characteristics
 #### Sound Library System
 The module features two complete sound banks, plus a dedicated percussion sound bank for Channel 9:
-
 - Standard GM Sound Bank (Bank 0): 128 General MIDI instrument tones
 - Expanded Sound Bank (Bank 127): 128 enhanced and special tones
 - Dedicated Percussion Bank: Multiple professional drum kits, accessible via Channel 9
